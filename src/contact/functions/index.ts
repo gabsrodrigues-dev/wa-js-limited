@@ -14,12 +14,13 @@
  * limitations under the License.
  */
 
-export { get } from './get';
-export { getBusinessProfile } from './getBusinessProfile';
-export { getCommonGroups } from './getCommonGroups';
-export { getProfilePictureUrl } from './getProfilePictureUrl';
-export { getStatus } from './getStatus';
-export { ContactListOptions, list } from './list';
+// SALES ENHANCER CHANGES
+// export { get } from './get';
+// export { getBusinessProfile } from './getBusinessProfile';
+// export { getCommonGroups } from './getCommonGroups';
+// export { getProfilePictureUrl } from './getProfilePictureUrl';
+// export { getStatus } from './getStatus';
+// export { ContactListOptions, list } from './list';
 export { queryExists } from './queryExists';
-export { subscribePresence } from './subscribePresence';
-export { unsubscribePresence } from './unsubscribePresence';
+// export { subscribePresence } from './subscribePresence';
+// export { unsubscribePresence } from './unsubscribePresence';

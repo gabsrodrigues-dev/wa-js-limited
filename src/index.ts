@@ -27,24 +27,25 @@ export { isInjected, isReady, isFullReady } from './webpack';
 
 export { config, Config } from './config';
 
-export * as blocklist from './blocklist';
-export * as call from './call';
-export * as cart from './cart';
-export * as privacy from './privacy';
-export * as catalog from './catalog';
+// SALES ENHANCER CHANGES
+// export * as blocklist from './blocklist';
+// export * as call from './call';
+// export * as cart from './cart';
+// export * as privacy from './privacy';
+// export * as catalog from './catalog';
 export * as chat from './chat';
 export * as conn from './conn';
 export * as contact from './contact';
-export * as ev from './eventEmitter';
-export * as community from './community';
-export * as group from './group';
-export * as labels from './labels';
-export * as profile from './profile';
-export * as status from './status';
-export * as util from './util';
-export * as newsletter from './newsletter';
-export * as whatsapp from './whatsapp';
-export * as order from './order';
+// export * as ev from './eventEmitter';
+// export * as community from './community';
+// export * as group from './group';
+// export * as labels from './labels';
+// export * as profile from './profile';
+// export * as status from './status';
+// export * as util from './util';
+// export * as newsletter from './newsletter';
+// export * as whatsapp from './whatsapp';
+// export * as order from './order';
 
 export {
   emit,

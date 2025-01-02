@@ -14,28 +14,29 @@
  * limitations under the License.
  */
 
-export { genLinkDeviceCodeForPhoneNumber } from './genLinkDeviceCodeForPhoneNumber';
-export { getAuthCode } from './getAuthCode';
-export {
-  getHistorySyncProgress,
-  HistorySyncProgress,
-} from './getHistorySyncProgress';
-export { getMyDeviceId } from './getMyDeviceId';
+// SALES ENHANCER CHANGES
+// export { genLinkDeviceCodeForPhoneNumber } from './genLinkDeviceCodeForPhoneNumber';
+// export { getAuthCode } from './getAuthCode';
+// export {
+//   getHistorySyncProgress,
+//   HistorySyncProgress,
+// } from './getHistorySyncProgress';
+// export { getMyDeviceId } from './getMyDeviceId';
 export { getMyUserId } from './getMyUserId';
-export { getPlatform } from './getPlatform';
-export { isAuthenticated } from './isAuthenticated';
-export { isIdle } from './isIdle';
-export { isMainInit } from './isMainInit';
-export { isMainLoaded } from './isMainLoaded';
-export { isMainReady } from './isMainReady';
-export { isMultiDevice } from './isMultiDevice';
-export { isOnline } from './isOnline';
-export { isRegistered } from './isRegistered';
-export { joinWebBeta } from './joinWebBeta';
-export { logout } from './logout';
-export { markAvailable, markUnavailable } from './markAvailable';
-export { needsUpdate } from './needsUpdate';
-export { refreshQR } from './refreshQR';
-export { setKeepAlive } from './setKeepAlive';
-export { setLimit } from './setLimit';
-export { setMultiDevice } from './setMultiDevice';
+// export { getPlatform } from './getPlatform';
+// export { isAuthenticated } from './isAuthenticated';
+// export { isIdle } from './isIdle';
+// export { isMainInit } from './isMainInit';
+// export { isMainLoaded } from './isMainLoaded';
+// export { isMainReady } from './isMainReady';
+// export { isMultiDevice } from './isMultiDevice';
+// export { isOnline } from './isOnline';
+// export { isRegistered } from './isRegistered';
+// export { joinWebBeta } from './joinWebBeta';
+// export { logout } from './logout';
+// export { markAvailable, markUnavailable } from './markAvailable';
+// export { needsUpdate } from './needsUpdate';
+// export { refreshQR } from './refreshQR';
+// export { setKeepAlive } from './setKeepAlive';
+// export { setLimit } from './setLimit';
+// export { setMultiDevice } from './setMultiDevice';

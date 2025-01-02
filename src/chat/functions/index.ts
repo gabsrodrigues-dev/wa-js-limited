@@ -14,63 +14,67 @@
  * limitations under the License.
  */
 
-export { archive, unarchive } from './archive';
-export { canMarkPlayed } from './canMarkPlayed';
-export { canMute } from './canMute';
-export { canReply } from './canReply';
-export { clear } from './clear';
-export { closeChat } from './closeChat';
-export { delete } from './delete';
-export { deleteMessage, DeleteMessageReturn } from './deleteMessage';
-export { downloadMedia } from './downloadMedia';
-export { editMessage } from './editMessage';
-export { find } from './find';
-export { forwardMessage, ForwardMessagesOptions } from './forwardMessage';
-export { generateMessageID } from './generateMessageID';
-export { get } from './get';
+// SALES ENHANCER CHANGES
+// export { archive, unarchive } from './archive';
+// export { canMarkPlayed } from './canMarkPlayed';
+// export { canMute } from './canMute';
+// export { canReply } from './canReply';
+// export { clear } from './clear';
+// export { closeChat } from './closeChat';
+// export { delete } from './delete';
+// export { deleteMessage } from './deleteMessage';
+export { DeleteMessageReturn } from './deleteMessage';
+// export { downloadMedia } from './downloadMedia';
+// export { editMessage } from './editMessage';
+// export { find } from './find';
+// export { forwardMessage } from './forwardMessage';
+export { ForwardMessagesOptions } from './forwardMessage';
+// export { generateMessageID } from './generateMessageID';
+// export { get } from './get';
 export { getActiveChat } from './getActiveChat';
-export { getLastSeen } from './getLastSeen';
-export { getMessageACK } from './getMessageACK';
-export { getMessageById } from './getMessageById';
-export { getMessages, GetMessagesOptions } from './getMessages';
-export { getNotes } from './getNotes';
-export { getPlatformFromMessage } from './getPlatformFromMessage';
-export { getQuotedMsg } from './getQuotedMsg';
-export { getQuotedMsgKey } from './getQuotedMsgKey';
-export { getReactions } from './getReactions';
-export { getVotes } from './getVotes';
-export { keepMessage } from './keepMessage';
+// export { getLastSeen } from './getLastSeen';
+// export { getMessageACK } from './getMessageACK';
+// export { getMessageById } from './getMessageById';
+// export { getMessages } from './getMessages';
+export { GetMessagesOptions } from './getMessages';
+// export { getNotes } from './getNotes';
+// export { getPlatformFromMessage } from './getPlatformFromMessage';
+// export { getQuotedMsg } from './getQuotedMsg';
+// export { getQuotedMsgKey } from './getQuotedMsgKey';
+// export { getReactions } from './getReactions';
+// export { getVotes } from './getVotes';
+// export { keepMessage } from './keepMessage';
 export { ChatListOptions, list } from './list';
-export { markIsComposing } from './markIsComposing';
-export { markIsPaused } from './markIsPaused';
-export { markIsRead } from './markIsRead';
-export { markIsRecording } from './markIsRecording';
-export { markIsUnread } from './markIsUnread';
-export { markPlayed } from './markPlayed';
-export { mute } from './mute';
-export { openChatAt } from './openChatAt';
+// export { markIsComposing } from './markIsComposing';
+// export { markIsPaused } from './markIsPaused';
+// export { markIsRead } from './markIsRead';
+// export { markIsRecording } from './markIsRecording';
+// export { markIsUnread } from './markIsUnread';
+// export { markPlayed } from './markPlayed';
+// export { mute } from './mute';
+// export { openChatAt } from './openChatAt';
 export { openChatBottom } from './openChatBottom';
-export { openChatFromUnread } from './openChatFromUnread';
-export { pin, unpin } from './pin';
-export { pinMsg, unpinMsg } from './pinMsg';
-export { LinkPreviewOptions, prepareLinkPreview } from './prepareLinkPreview';
-export {
-  MessageButtonsOptions,
-  prepareMessageButtons,
-} from './prepareMessageButtons';
-export { prepareRawMessage } from './prepareRawMessage';
-export { requestPhoneNumber } from './requestPhoneNumber';
-export { sendCatalogMessage } from './sendCatalogMessage';
-export {
-  OrderItems,
-  OrderMessageOptions,
-  sendChargeMessage,
-} from './sendChargeMessage';
-export {
-  PoolMessageOptions,
-  sendCreatePollMessage,
-} from './sendCreatePollMessage';
-export { sendEventMessage } from './sendEventMessage';
+// export { openChatFromUnread } from './openChatFromUnread';
+// export { pin, unpin } from './pin';
+// export { pinMsg, unpinMsg } from './pinMsg';
+// export { prepareLinkPreview } from './prepareLinkPreview';
+export { LinkPreviewOptions } from './prepareLinkPreview';
+// export {
+//   prepareMessageButtons,
+// } from './prepareMessageButtons';
+export { MessageButtonsOptions } from './prepareMessageButtons';
+// export { prepareRawMessage } from './prepareRawMessage';
+// export { requestPhoneNumber } from './requestPhoneNumber';
+// export { sendCatalogMessage } from './sendCatalogMessage';
+// export {
+//   sendChargeMessage,
+// } from './sendChargeMessage';
+export { OrderItems, OrderMessageOptions } from './sendChargeMessage';
+// export {
+//   sendCreatePollMessage,
+// } from './sendCreatePollMessage';
+export { PoolMessageOptions } from './sendCreatePollMessage';
+// export { sendEventMessage } from './sendEventMessage';
 export {
   AudioMessageOptions,
   AutoDetectMessageOptions,
@@ -81,29 +85,31 @@ export {
   StickerMessageOptions,
   VideoMessageOptions,
 } from './sendFileMessage';
-export {
-  GroupInviteMessage,
-  sendGroupInviteMessage,
-} from './sendGroupInviteMessage';
-export { ListMessageOptions, sendListMessage } from './sendListMessage';
-export {
-  LocationMessageOptions,
-  sendLocationMessage,
-} from './sendLocationMessage';
-export { sendPixKeyMessage } from './sendPixKeyMessage';
-export { sendRawMessage } from './sendRawMessage';
-export { sendReactionToMessage } from './sendReactionToMessage';
-export {
-  ScheduledCallMessageOptions,
-  sendScheduledCallMessage,
-} from './sendScheduledCallMessage';
+// export {
+//   sendGroupInviteMessage,
+// } from './sendGroupInviteMessage';
+export { GroupInviteMessage } from './sendGroupInviteMessage';
+// export { sendListMessage } from './sendListMessage';
+export { ListMessageOptions } from './sendListMessage';
+// export {
+//   sendLocationMessage,
+// } from './sendLocationMessage';
+export { LocationMessageOptions } from './sendLocationMessage';
+// export { sendPixKeyMessage } from './sendPixKeyMessage';
+// export { sendRawMessage } from './sendRawMessage';
+// export { sendReactionToMessage } from './sendReactionToMessage';
+// export {
+//   sendScheduledCallMessage,
+// } from './sendScheduledCallMessage';
+export { ScheduledCallMessageOptions } from './sendScheduledCallMessage';
 export { sendTextMessage, TextMessageOptions } from './sendTextMessage';
-export {
-  sendVCardContactMessage,
-  VCardContact,
-} from './sendVCardContactMessage';
-export { setChatList } from './setChatList';
-export { setInputText } from './setInputText';
-export { setNotes } from './setNotes';
-export { starMessage, StarMessageReturn } from './starMessage';
-export { unmute } from './unmute';
+// export {
+//   sendVCardContactMessage,
+// } from './sendVCardContactMessage';
+export { VCardContact } from './sendVCardContactMessage';
+// export { setChatList } from './setChatList';
+// export { setInputText } from './setInputText';
+// export { setNotes } from './setNotes';
+// export { starMessage } from './starMessage';
+export { StarMessageReturn } from './starMessage';
+// export { unmute } from './unmute';
