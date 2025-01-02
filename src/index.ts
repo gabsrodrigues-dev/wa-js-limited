@@ -16,14 +16,14 @@
 
 /* eslint-disable simple-import-sort/exports */
 /* eslint-disable simple-import-sort/imports */
-import './config';
-import './deviceName';
-import './gtag';
+// import './config';
+// import './deviceName';
+// import './gtag';
 
 import * as webpack from './webpack';
 
-export { webpack };
-export { isInjected, isReady, isFullReady } from './webpack';
+// export { webpack };
+// export { isInjected, isReady, isFullReady } from './webpack';
 
 export { config, Config } from './config';
 
@@ -47,32 +47,32 @@ export * as contact from './contact';
 // export * as whatsapp from './whatsapp';
 // export * as order from './order';
 
-export {
-  emit,
-  emitAsync,
-  eventNames,
-  getMaxListeners,
-  hasListeners,
-  listenTo,
-  listenerCount,
-  listeners,
-  listenersAny,
-  many,
-  off,
-  offAny,
-  on,
-  onAny,
-  once,
-  prependAny,
-  prependListener,
-  prependMany,
-  prependOnceListener,
-  removeAllListeners,
-  removeListener,
-  setMaxListeners,
-  stopListeningTo,
-  waitFor,
-} from './eventEmitter';
+// export {
+//   emit,
+//   emitAsync,
+//   eventNames,
+//   getMaxListeners,
+//   hasListeners,
+//   listenTo,
+//   listenerCount,
+//   listeners,
+//   listenersAny,
+//   many,
+//   off,
+//   offAny,
+//   on,
+//   onAny,
+//   once,
+//   prependAny,
+//   prependListener,
+//   prependMany,
+//   prependOnceListener,
+//   removeAllListeners,
+//   removeListener,
+//   setMaxListeners,
+//   stopListeningTo,
+//   waitFor,
+// } from './eventEmitter';
 
 declare const __VERSION__: string;
 declare const __SUPPORTED_WHATSAPP_WEB__: string;
