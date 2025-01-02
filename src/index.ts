@@ -47,7 +47,7 @@ export * as contact from './contact';
 // export * as whatsapp from './whatsapp';
 // export * as order from './order';
 
-// export {
+export {
 //   emit,
 //   emitAsync,
 //   eventNames,
@@ -60,7 +60,7 @@ export * as contact from './contact';
 //   many,
 //   off,
 //   offAny,
-//   on,
+  on,
 //   onAny,
 //   once,
 //   prependAny,
@@ -72,7 +72,7 @@ export * as contact from './contact';
 //   setMaxListeners,
 //   stopListeningTo,
 //   waitFor,
-// } from './eventEmitter';
+} from './eventEmitter';
 
 declare const __VERSION__: string;
 declare const __SUPPORTED_WHATSAPP_WEB__: string;
