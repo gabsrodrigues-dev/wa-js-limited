@@ -16,7 +16,7 @@
 
 // SALES ENHANCER CHANGES
 // export { genLinkDeviceCodeForPhoneNumber } from './genLinkDeviceCodeForPhoneNumber';
-// export { getAuthCode } from './getAuthCode';
+export { getAuthCode } from './getAuthCode';
 // export {
 //   getHistorySyncProgress,
 //   HistorySyncProgress,
@@ -24,14 +24,14 @@
 // export { getMyDeviceId } from './getMyDeviceId';
 export { getMyUserId } from './getMyUserId';
 // export { getPlatform } from './getPlatform';
-// export { isAuthenticated } from './isAuthenticated';
-// export { isIdle } from './isIdle';
-// export { isMainInit } from './isMainInit';
+export { isAuthenticated } from './isAuthenticated';
+export { isIdle } from './isIdle';
+export { isMainInit } from './isMainInit';
 // export { isMainLoaded } from './isMainLoaded';
-// export { isMainReady } from './isMainReady';
-// export { isMultiDevice } from './isMultiDevice';
+export { isMainReady } from './isMainReady';
+export { isMultiDevice } from './isMultiDevice';
 // export { isOnline } from './isOnline';
-// export { isRegistered } from './isRegistered';
+export { isRegistered } from './isRegistered';
 // export { joinWebBeta } from './joinWebBeta';
 // export { logout } from './logout';
 // export { markAvailable, markUnavailable } from './markAvailable';
