@@ -20,7 +20,7 @@
 // export { canMute } from './canMute';
 // export { canReply } from './canReply';
 // export { clear } from './clear';
-// export { closeChat } from './closeChat';
+export { closeChat } from './closeChat';
 // export { delete } from './delete';
 // export { deleteMessage } from './deleteMessage';
 export { DeleteMessageReturn } from './deleteMessage';
